@@ -8,5 +8,5 @@ import "openzeppelin-solidity/contracts/token/ERC20/PausableToken.sol";
 import "../token/WrappedToken.sol";
 
 
-contract WETH is WrappedToken, DetailedERC20("Wrapped ETH", "WETH", 18) {}
+contract WETH is WrappedToken, DetailedERC20("Synth Wrapped ETH", "SWETH", 18) {}
 
