@@ -8,5 +8,5 @@ import "openzeppelin-solidity/contracts/token/ERC20/PausableToken.sol";
 import "../token/WrappedToken.sol";
 
 
-contract WBTC is WrappedToken, DetailedERC20("Wrapped BTC", "WBTC", 8) {}
+contract WBTC is WrappedToken, DetailedERC20("Synth Wrapped BTC", "SWBTC", 18) {}
 
